@@ -1,0 +1,26 @@
+To create Nodejs Server API
+-right click on data.json and choose (open in terminal) 
+- in terminal you need to install few packages
+- first, 
+    -type: npm init  (used to initalize Nodejs package)
+    -type your package name : my_blog_api
+    -type your description : My Blog Server
+    - type your entry point: app.js
+    - for test command, git repository, and keywords>>> you can leave them blank
+    - type your name for author: Moemen Alatweh
+    - for license : just hit enter and ignor it
+    - it will ask you , is this OK ,type yes
+    - that will create (package.json) in your directory, which will be your server confugeration
+- second,
+    - type: npm install --save express (install package that's let you get and post from and to API)
+    - that will create (package-lock.json) in your directory
+- third,
+    - type: npm install --save multer (install package that's help you in save images) 
+- fourth,
+    - type: npm install -g nodemon  (install package that's need to launch our node server), we use (-g) to install it in global level not just for this package
+after finish installing everything go and create (app.js)
+after finish app.js file go to terminal
+- type: nodemon app.js (to launch the app)       
+
+- sometimes you need to make sure you are in the right directory to be able to launch the server
+ before you use (nodemon app.js)

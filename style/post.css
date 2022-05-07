@@ -1,0 +1,28 @@
+/* we use '#' when we have id  */
+#individual-post-title {
+    text-align: center;
+    font-size: 2em;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    font-weight: bold;
+}
+
+#individual-post-date {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-top: 1px solid darkgrey;
+    border-bottom: 1px solid darkgrey;
+    padding-left: 16px;
+    color: rgb(155, 155, 155);
+
+}
+
+#individual-post-content {
+    padding-top: 24px;
+    padding-left: 16px;
+    padding-right: 16px;
+    color: black;
+    line-height: 1.4;
+    font-style: oblique;
+
+}
